@@ -31,15 +31,12 @@
 </template>
 
 <script>
-import mui from "./lib/mui/js/mui";
 export default {
   data() {
     return {};
   },
   created() {
-    mui.init({
-      swipeBack: true //启用右滑关闭功能
-    });
+    
   }
 };
 </script>
